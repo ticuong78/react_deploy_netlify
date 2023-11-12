@@ -1,0 +1,26 @@
+body {
+  font-family: Arial;
+}
+
+img {
+  width: 50px;
+}
+
+.card-collection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.container {
+  display: block;
+  width: fit-content;
+}
+
+p {
+  width: fit-content;
+}
